@@ -1,6 +1,6 @@
 export interface ItunesTypes {
 	resultCount?: number,
-  results: Result[]
+  results?: Result[]
 }
 
 export interface Result {
@@ -24,4 +24,8 @@ export interface Result {
 	currency:string,
 	releaseDate:string,
 	primaryGenreName:string
-},
+}
+
+export interface Num {
+	id?: number
+}
